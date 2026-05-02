@@ -68,6 +68,7 @@ for a in txts:
                         print(chr(btxt[tc]),end="")
 
                         tc=tc+1
+                        counter=counter+1
                     print("")
         if a.strip()=="SYMBOL TABLE:":
              t=True
